@@ -1,0 +1,35 @@
+.content{
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+    width: 300px;
+}
+.section{
+    margin-bottom: 30px;
+}
+.title{
+    margin-bottom: 5px;
+}
+.input{
+    position: relative;
+    transition: opacity .2s ease-in-out;
+}
+.inputOpen{
+    display: block;
+    opacity: 1;
+}
+.inputClose{
+    opacity: 0;
+}
+.btnInInput{
+    position: absolute;
+    top: 5px;
+    right: 2px;
+    width: auto;
+}
+.buttons{
+    position: relative;
+    transition: top .2s ease-in-out;
+}

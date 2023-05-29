@@ -1,0 +1,19 @@
+.content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: white;
+    font-family: "Century Gothic";
+}
+.icon{
+    display: flex;
+    justify-content: center;
+
+}
+.text{
+    margin-top: -8px;
+    text-align: center;
+}
+.content:hover{
+    cursor: pointer;
+}

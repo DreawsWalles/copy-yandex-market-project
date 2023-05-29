@@ -1,0 +1,9 @@
+.content{
+    position: absolute;
+    top:20px;
+    left: 230px;
+}
+.title{
+    font-family: MyArchive;
+    font-size: 48px;
+}

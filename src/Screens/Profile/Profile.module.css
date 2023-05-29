@@ -1,0 +1,54 @@
+.content{
+    position: absolute;
+    top: 45%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+    width: 45%;
+    font-family: "Century Gothic";
+}
+.logo{
+    position: absolute;
+    top:10px;
+    right: 40px;
+}
+.title{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.textTitle{
+    margin-top: -10px;
+    text-align: center;
+    font-size: 48px;
+    font-family: MyArchive;
+}
+.fields{
+
+}
+.section{
+    margin-bottom: 40px;
+}
+.text{
+    font-family: "Century Gothic";
+    font-size: 24px;
+    display: flex;
+    justify-content: flex-end;
+}
+.value{
+    font-family: "Century Gothic";
+    font-size: 24px;
+    width: auto;
+    padding: 2px 5px;
+    border-radius: 10px;
+}
+.value:hover{
+    background: lightgray;
+}
+.field{
+    margin-bottom: 30px;
+    align-content: center;
+}
+.footer{
+    margin-top: 80px;
+}

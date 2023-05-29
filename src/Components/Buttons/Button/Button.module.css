@@ -1,0 +1,25 @@
+.content{
+    padding: 5px 20px;
+    border-radius: 1rem;
+}
+.s{
+    width: 100%;
+}
+.white{
+    border: 1px solid black;
+    background: white;
+    color: black;
+}
+.white:hover{
+    background: gray;
+    color: white;
+}
+.dark{
+    background: black;
+    color:white;
+}
+.dark:hover{
+    border: 1px solid black;
+    background: gray;
+    color: white;
+}

@@ -1,0 +1,21 @@
+.content{
+    padding: 0;
+    border: none;
+    background: transparent;
+}
+.success{
+    background: forestgreen;
+    padding: 0 15px;
+    border-radius: 10px;
+}
+.success:hover{
+    background: darkgreen;
+}
+.cancel{
+    padding: 0 15px;
+    border-radius: 10px;
+    background: red;
+}
+.cancel:hover{
+    background: darkred;
+}
