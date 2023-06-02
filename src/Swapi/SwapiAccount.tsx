@@ -1,5 +1,4 @@
 import {UserEntity} from "../Entities/UserEntity";
-import {LoginEntity} from "../Entities/LoginEntity";
 
 export function CheckLogin(login: string): boolean{
     let user: UserEntity | null = JSON.parse(localStorage.getItem(login) as string)
@@ -72,4 +71,12 @@ export function UpdateAge(token: string, age: number): UserEntity | null{
     user.age = age;
     localStorage.setItem(user.email, convertTo(user));
     return user;
+}
+export function RemoveUser(id: string): boolean{
+    let user: UserEntity | null = JSON.parse(localStorage.getItem(id) as string);
+    if(!user){
+        return false;
+    }
+    localStorage.removeItem(user.email);
+    return true;
 }

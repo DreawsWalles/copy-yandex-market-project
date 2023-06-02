@@ -23,3 +23,23 @@
     background: gray;
     color: white;
 }
+.success{
+    background: forestgreen;
+    padding: 0 15px;
+    border-radius: 10px;
+    color: white;
+}
+.success:hover{
+    background: darkgreen;
+    color: white;
+}
+.cancel{
+    color: white;
+    padding: 0 15px;
+    border-radius: 10px;
+    background: red;
+}
+.cancel:hover{
+    background: darkred;
+    color: white;
+}

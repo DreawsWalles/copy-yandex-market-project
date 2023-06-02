@@ -240,7 +240,7 @@ export default function Profile(props: IProfileProps){
                                                                 }
                                                                 let newEntity = UpdatePassword(localStorage.getItem("token") as string, password);
                                                                 if(!newEntity) {
-                                                                    Hint(ids.password.error, "Не удалось обновить логин", "show");
+                                                                    Hint(ids.password.error, "Не удалось обновить пароль", "show");
                                                                     return;
                                                                 }
                                                                 setEntity(newEntity);
@@ -305,7 +305,7 @@ export default function Profile(props: IProfileProps){
                                                                 }
                                                                 let newEntity = UpdateName(localStorage.getItem("token") as string, name);
                                                                 if(!newEntity) {
-                                                                    Hint(ids.name.error, "Не удалось обновить логин", "show");
+                                                                    Hint(ids.name.error, "Не удалось обновить имя", "show");
                                                                     return;
                                                                 }
                                                                 setEntity(newEntity);
@@ -366,7 +366,7 @@ export default function Profile(props: IProfileProps){
                                                                 }
                                                                 let newEntity = UpdateSurname(localStorage.getItem("token") as string, surname);
                                                                 if(!newEntity) {
-                                                                    Hint(ids.surname.error, "Не удалось обновить логин", "show");
+                                                                    Hint(ids.surname.error, "Не удалось обновить фамилию", "show");
                                                                     return;
                                                                 }
                                                                 setEntity(newEntity);
@@ -427,7 +427,7 @@ export default function Profile(props: IProfileProps){
                                                                 }
                                                                 let newEntity = UpdatePatronymic(localStorage.getItem("token") as string, patronymic);
                                                                 if(!newEntity) {
-                                                                    Hint(ids.patronymic.error, "Не удалось обновить логин", "show");
+                                                                    Hint(ids.patronymic.error, "Не удалось обновить отчество", "show");
                                                                     return;
                                                                 }
                                                                 setEntity(newEntity);
@@ -497,7 +497,7 @@ export default function Profile(props: IProfileProps){
                                                                 }
                                                                     let newEntity = UpdateAge(localStorage.getItem("token") as string, ageNumb);
                                                                 if(!newEntity) {
-                                                                    Hint(ids.age.error, "Не удалось обновить логин", "show");
+                                                                    Hint(ids.age.error, "Не удалось обновить возраст", "show");
                                                                     return;
                                                                 }
                                                                 setEntity(newEntity);

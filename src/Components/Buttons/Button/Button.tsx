@@ -19,7 +19,12 @@ export default function Button(props: IButtonProps){
                     break;
                 case "white":
                     setTheme(classes.white);
-                    break
+                    break;
+                case "success":
+                    setTheme(classes.success);
+                    break;
+                case "cancel":
+                    setTheme(classes.cancel);
             }
         })()
     }, [])

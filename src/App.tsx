@@ -18,7 +18,7 @@ export default function App() {
             if(!localStorage.getItem("token")) {
                 localStorage.setItem("token", "");
             }
-            localStorage.setItem("test", JSON.stringify({name: "test", surname: "test", patronymic:"test", age: 18, password: "testdata"}));
+            localStorage.setItem("test", JSON.stringify({name: "test", surname: "test", patronymic:"test", age: 18, email: "test", password: "testdata"}));
         })()
     }, [])
   return (

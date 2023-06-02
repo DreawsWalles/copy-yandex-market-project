@@ -15,7 +15,8 @@ export default function Input(props: IInputProps){
                         <input id={props.id}
                                className={`col ${classes.input}`}
                                type={props.type}
-                               onInput={onChange} value={props.value}/>
+                               onInput={onChange}
+                               value={props.value}/>
                         :
                         <input id={props.id}
                                className={`col ${classes.input}`}

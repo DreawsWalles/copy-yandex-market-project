@@ -8,7 +8,6 @@ import Profile from "../Profile/Profile";
 import Users from "../Users/Users";
 
 export default function Layout(props:ILayoutProps){
-    debugger
     const ids = {
         menu: "layout-menu",
         content: "layout-content"

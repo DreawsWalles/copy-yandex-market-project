@@ -2,8 +2,15 @@
     position: absolute;
     top:20px;
     left: 230px;
+    width: 70%;
 }
 .title{
     font-family: MyArchive;
     font-size: 48px;
+}
+.list{
+    width: 100%;
+}
+.subContent{
+    margin-top: 40px;
 }
